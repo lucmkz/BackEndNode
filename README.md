@@ -23,3 +23,8 @@ docker ps
 
 //Verificar os logs de um container
 //docker logs:(id)
+
+//Atualizar tabela
+//Necessário que o banco de dados esteja UP
+//yarn migration:revert - Para reverter a última alteração (pode ser executada em sequencia quantas vezes for necessário)
+//yarn migration:run - para criar as tabelas no banco
