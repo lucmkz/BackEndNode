@@ -3,6 +3,7 @@ import path from 'path';
 import fs from 'fs';
 import User from '../models/User';
 import ploadConfig from '../config/upload';
+import AppError from '../errors/AppErros';
 
 interface Request {
   user_id: string;
@@ -16,7 +17,7 @@ class UploadUserAvatarService {
     const user = await usersRepository.findOne(user_id);
 
     if (!user) {
-      throw new Error('Only Authenticate users can change avatar');
+      throw new AppError('Only Authenticate users can change avatar', 401);
     }
 
     if (user.avatar) {
