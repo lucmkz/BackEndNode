@@ -2,15 +2,19 @@
   BackEndNode
 </h4>
 
+<p align="center">
 Start App
-<br>
+<p>
 
-yarn<br>
+```bash
+# Clone this repository and install dependencies
+yarn
 
+# Start Server
 yarn dev:server
-<br>
+```
 
-server is running on portn 3333
+server is running on porn 3333
 <br>
 
 //Iniciando container docker, pegar o id pelo docker ps -a
