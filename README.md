@@ -8,10 +8,10 @@ Start App
 
 ```bash
 # Clone this repository and install dependencies
-yarn
+$ yarn
 
 # Start Server
-yarn dev:server
+$ yarn dev:server
 ```
 
 server is running on porn 3333
