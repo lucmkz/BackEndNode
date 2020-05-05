@@ -13,8 +13,8 @@ $ yarn
 # Start Server
 $ yarn dev:server
 ```
-<p align="center">
-server is running on porn 3333
+<p>
+server is running on port 3333
 <p>
 
 ## :information_source: How To Use
