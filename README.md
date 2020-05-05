@@ -13,10 +13,11 @@ $ yarn
 # Start Server
 $ yarn dev:server
 ```
-
+<p align="center">
 server is running on porn 3333
-<br>
+<p>
 
+## :information_source: How To Use
 //Iniciando container docker, pegar o id pelo docker ps -a
 docker start(id)
 <br>
@@ -57,3 +58,5 @@ docker ps
 //yarn migration:run - para criar as tabelas no banco
 <br>
 <br>
+
+Made by Lucas Santos :wave: [Get in touch!](https://www.linkedin.com/in/lucasmk/)
