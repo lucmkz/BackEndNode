@@ -1,6 +1,9 @@
 <h4 align="center">
   BackEndNode
 </h4>
+<p>
+  Backend builded on RocketSeat`s bootcamp course
+</p>
 
 ## :information_source: Start App
 
