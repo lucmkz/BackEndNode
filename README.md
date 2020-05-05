@@ -2,7 +2,7 @@
   BackEndNode
 </h4>
 
-## :information_source:Start App
+## :information_source: Start App
 
 ```bash
 # Clone this repository and install dependencies
@@ -15,7 +15,7 @@ $ yarn dev:server
 server is running on port 3333
 <p>
 
-## :information_source:Docker 
+## :information_source: Docker 
 ```bash
 # To get id, use docker ps -a
 $ docker start(id)
@@ -32,7 +32,7 @@ $ docker ps -a
 $ docker logs:(id)
 ```
 
-## :information_source:Migrations on TypeORM (database)
+## :information_source: Migrations on TypeORM (database)
 ```bash
 # To create a new migration
 $ yarn migration:create -n (NameOfMigration)
