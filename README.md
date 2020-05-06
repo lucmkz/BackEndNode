@@ -48,3 +48,6 @@ $ yarn migration:revert
 ```
 
 Made by Lucas Santos :wave: [Get in touch!](https://www.linkedin.com/in/lucasmk/)
+
+
+Licence
