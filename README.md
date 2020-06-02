@@ -1,53 +1,53 @@
-# BackEndNode
+<h4 align="center">
+  BackEndNode
+</h4>
+<p>
+  Backend builded on RocketSeat`s bootcamp course
+</p>
 
-Start App
-<br>
+## :information_source: Start App
 
-yarn<br>
+```bash
+# Clone this repository and install dependencies
+$ yarn
 
-yarn dev:server
-<br>
+# Start Server
+$ yarn dev:server
+```
+<p>
+server is running on port 3333
+<p>
 
-server is running on portn 3333
-<br>
+## :information_source: Docker 
+```bash
+# To get id, use docker ps -a
+$ docker start(id)
 
-//Iniciando container docker, pegar o id pelo docker ps -a
-docker start(id)
-<br>
+# Other Commands
+# To create a new instance
+$ docker run --name gostack_postgres -e POSTGRES_PASSWORD=\*\* -p 5432:5432 -d postgres
 
-//outros: <br>
-<br>
-//comandos docker:
-<br>
-//Criar container
-<br>
-❯ docker run --name gostack_postgres -e POSTGRES_PASSWORD=\*\* -p 5432:5432 -d postgres
+# docker Images Running
+$ docker ps
+# or
+$ docker ps -a
+# Logs
+$ docker logs:(id)
+```
 
-<br>
-//verificar imagens docker que estão sendo executadas
-<br>
-docker ps
-<br>
+## :information_source: Migrations on TypeORM (database)
+```bash
+# To create a new migration
+$ yarn migration:create -n (NameOfMigration)
 
-<br>
-//lista todos os container da máquina
-<br>
-//docker ps -a
-<br>
+# To create or Update Table (image docker necessary up)
+$ yarn migration:run
 
-<br>
-//Verificar os logs de um container
-<br>
-//docker logs:(id)
-<br>
+# To revert migrations
+$ yarn migration:revert
+```
 
-<br>
-//Atualizar tabela
-<br>
-//Necessário que o banco de dados esteja UP
-<br>
-//yarn migration:revert - Para reverter a última alteração (pode ser executada em sequencia quantas vezes for necessário)
-<br>
-//yarn migration:run - para criar as tabelas no banco
-<br>
-<br>
+Made by Lucas Santos :wave: [Get in touch!](https://www.linkedin.com/in/lucasmk/)
+
+
+Licence MIT
