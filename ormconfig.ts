@@ -1,9 +1,8 @@
 module.exports = {
-  type: 'postgress',
+  type: 'postgres',
   url: process.env.DATABASE_URL,
   entities: ['dist/src/models/*.js'],
   migrations: ['dist/src/database/migrations/*.js'],
-  ssl: true,
   cli: {
     migrationsDir: './src/database/migrations/',
   },
