@@ -1,5 +1,7 @@
 import 'reflect-metadata';
 
+import dontenv from 'dotenv';
+
 import express, { Request, Response, NextFunction } from 'express';
 import cors from 'cors';
 import 'express-async-errors';
@@ -10,6 +12,8 @@ import uploadConfig from './config/upload';
 import AppError from './errors/AppErros';
 
 import './database';
+
+dontenv.config();
 
 const app = express();
 
